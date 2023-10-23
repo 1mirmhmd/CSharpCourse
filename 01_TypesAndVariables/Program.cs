@@ -8,6 +8,9 @@
             // Value Types 
             int number1 = -2147483648;
             int number2= 2147483647;
+            long number3 = 9223372036854775807;
+            long number4 = -9223372036854775808;
+
             Console.WriteLine("Number 1 is {0} ",number1);
         }
     }
