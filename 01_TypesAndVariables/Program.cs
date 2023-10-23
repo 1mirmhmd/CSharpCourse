@@ -6,6 +6,8 @@
         {
             Console.WriteLine("Hello, World!");
             // Value Types 
+            short number = 32767;
+            short number_ = -32768;
             int number1 = -2147483648;
             int number2= 2147483647;
             long number3 = 9223372036854775807;
