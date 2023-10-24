@@ -6,8 +6,8 @@
         {
             Console.WriteLine("Hello, World!");
             // Value Types
+            bool condition = false;
             byte byteNumber = 255;
-
             short number = 32767;
             short number_ = -32768;
             int number1 = -2147483648;
