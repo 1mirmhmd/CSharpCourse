@@ -17,6 +17,8 @@
             int number2= 2147483647;
             long number3 = 9223372036854775807;
             long number4 = -9223372036854775808;
+            var number6 = 10;
+            number6 = 'A';
             Console.WriteLine("Number  is {0} ", byteNumber);
             Console.WriteLine("Number 1 is {0} ", number_);
             Console.WriteLine("Number 2 is {0} ",number);
@@ -26,6 +28,7 @@
             Console.WriteLine("Number 6 is {0} ", number4);
             Console.WriteLine("Number 7 is {0} ", double_);
             Console.WriteLine("Character is {0} ", (int)character);
+            Console.WriteLine(number6);
             Console.WriteLine((int)Days.Friday);
 
 
