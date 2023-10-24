@@ -6,6 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
             // Value Types
+            char character = 'A';
             bool condition = false;
             byte byteNumber = 255;
             short number = 32767;
@@ -21,6 +22,9 @@
             Console.WriteLine("Number 4 is {0} ", number2);
             Console.WriteLine("Number 5 is {0} ", number2);
             Console.WriteLine("Number 6 is {0} ", number2);
+            Console.WriteLine("Character is {0} ", character);
+
+
         }
     }
 }
