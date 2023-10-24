@@ -13,7 +13,9 @@
             {
                 Console.WriteLine("Number is not 10");
             }
-            
+            // Single line if 
+            Console.WriteLine(number == 10 ? "Number is 10" : "Number is not 10");
+
         }
     }
 }
