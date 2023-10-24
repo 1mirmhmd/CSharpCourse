@@ -25,9 +25,15 @@
             Console.WriteLine("Number 5 is {0} ", number3);
             Console.WriteLine("Number 6 is {0} ", number4);
             Console.WriteLine("Number 7 is {0} ", double_);
-            Console.WriteLine("Character is {0} ", character);
+            Console.WriteLine("Character is {0} ", (int)character);
+            Console.WriteLine((int)Days.Friday);
+
 
 
         }
+    }
+    enum Days
+    {
+        Monday=10, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday // İndis numaraları değiştirilebilir
     }
 }
