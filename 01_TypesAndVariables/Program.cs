@@ -19,6 +19,8 @@
             long number4 = -9223372036854775808;
             var number6 = 10;
             number6 = 'A';
+            //number6 = "A";
+
             Console.WriteLine("Number  is {0} ", byteNumber);
             Console.WriteLine("Number 1 is {0} ", number_);
             Console.WriteLine("Number 2 is {0} ",number);
