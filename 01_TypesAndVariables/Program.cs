@@ -14,17 +14,17 @@
             short number = 32767;
             short number_ = -32768;
             int number1 = -2147483648;
-            int number2= 2147483647;
+            int number2 = 2147483647;
             long number3 = 9223372036854775807;
             long number4 = -9223372036854775808;
             var number6 = 10;
             number6 = 'A';
             //number6 = "A";
-
+                
             Console.WriteLine("Number  is {0} ", byteNumber);
             Console.WriteLine("Number 1 is {0} ", number_);
-            Console.WriteLine("Number 2 is {0} ",number);
-            Console.WriteLine("Number 3 is {0} ",number1);
+            Console.WriteLine("Number 2 is {0} ", number);
+            Console.WriteLine("Number 3 is {0} ", number1);
             Console.WriteLine("Number 4 is {0} ", number2);
             Console.WriteLine("Number 5 is {0} ", number3);
             Console.WriteLine("Number 6 is {0} ", number4);
@@ -39,6 +39,6 @@
     }
     enum Days
     {
-        Monday=10, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday // İndis numaraları değiştirilebilir
+        Monday = 10, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday // İndis numaraları değiştirilebilir
     }
 }
