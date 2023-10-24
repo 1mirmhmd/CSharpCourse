@@ -9,7 +9,7 @@
             {
                 Console.WriteLine("Number is 10");
             }
-            else if (number==20)
+            else if (number == 20)
             {
                 Console.WriteLine("Number is 20");
 
@@ -20,6 +20,19 @@
             }
             // Single line if 
             Console.WriteLine(number == 10 ? "Number is 10" : "Number is not 10");
+
+            switch (number)
+            {
+                case 10:
+                    Console.WriteLine("Number is 10");
+                    break;
+                case 20:
+                    Console.WriteLine("Number is 10");
+                    break;
+                default:
+                    Console.WriteLine("Number is not 10 and 20");
+                    break;
+            }
 
         }
     }
