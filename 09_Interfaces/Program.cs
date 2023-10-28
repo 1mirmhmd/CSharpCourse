@@ -4,11 +4,23 @@
     {
         static void Main(string[] args)
         {
+            //IntefacesIntro();
+
+            // Interface'ler new'lenemez
+            IPerson person = new Customer();
+            person.FirstName = "Ali";
+
+            CustomerManager manager = new CustomerManager();
+            manager.Add(new SQLServerCustomerDal());
+
+        }
+
+        private static void IntefacesIntro()
+        {
             PersonManager personManager = new PersonManager();
             personManager.Add(new Customer { Id = 1, FirstName = "Aziz", LastName = "Han", Address = "Ağrı" });
-            Student student = new Student { Id=1, FirstName="Kamil",LastName="Birol",Department="Computer Science"};
+            Student student = new Student { Id = 1, FirstName = "Kamil", LastName = "Birol", Department = "Computer Science" };
             personManager.Add(student);
-            
         }
     }
     interface IPerson
