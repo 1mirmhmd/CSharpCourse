@@ -5,14 +5,28 @@
         static void Main(string[] args)
         {
             //IntefacesIntro();
+            //Demo();
+            ICustomerDal[] customerDals = new ICustomerDal[2]
+            {
+                new SQLServerCustomerDal(),
+                new OracleServerCustomerDal() 
+            };
 
+            foreach (var customerDal in customerDals)
+            {
+                customerDal.Add();
+            }
             // Interface'ler new'lenemez
             IPerson person = new Customer();
             person.FirstName = "Ali";
 
+
+        }
+
+        private static void Demo()
+        {
             CustomerManager manager = new CustomerManager();
             manager.Add(new SQLServerCustomerDal());
-
         }
 
         private static void IntefacesIntro()
