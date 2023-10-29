@@ -26,7 +26,7 @@ class Manager : IWork, IEat
 {
     public void Eat()
     {
-        Console.WriteLine("")
+        Console.WriteLine("");
     }
 
     public void Work()
